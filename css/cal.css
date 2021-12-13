@@ -1,0 +1,8 @@
+input[type=button]
+{
+	width:38px;
+}
+input[type=text]
+{
+	text-align:right;
+}

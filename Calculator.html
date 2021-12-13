@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<script type = "text/javascript" src="javascrip/cal.js"></script>
+	<link rel="stylesheet" href="css/cal.css"/>
+<head>
+</head>
+<body>
+<h1> Simple Calculator</h1>
+<form>
+	<table>
+		<tr>
+			<td colspan="4"><input type="text" id="txtdisplay" value="0"/></td>
+		</tr>
+		<tr>
+			<td><input type="button" id="btnc" value="C" onclick="c()" /> </td>
+			<td><input type="button" id="btnback" value="->" onclick="subst()"/> </td>
+			<td><input type="button" id="btnsign" value="+/-" onclick="change()"/> </td>
+			<td><input type="button" id="btnsub" value="-" onclick="sub()"/> </td>
+		</tr>
+		<tr>
+			<td><input type="button" id="btn7" value="7" onclick="pressbtn('7')"/> </td>
+			<td><input type="button" id="btn8" value="8" onclick="pressbtn('8')"/> </td>
+			<td><input type="button" id="btn9" value="9" onclick="pressbtn('9')"/> </td>
+			<td><input type="button" id="btnsum" value="+" onclick="add()"/> </td>
+		</tr>
+		<tr>
+			<td><input type="button" id="btn4" value="4" onclick="pressbtn('4')"/></td>
+			<td><input type="button" id="btn5" value="5" onclick="pressbtn('5')"/></td>
+			<td><input type="button" id="btn6" value="6" onclick="pressbtn('6')"/> </td>
+			<td><input type="button" id="btntime" value="*" onclick="times()"/> </td>
+		</tr>
+		<tr>
+			<td><input type="button" id="btn1" value="1" onclick="pressbtn('1')"/> </td>
+			<td><input type="button" id="btn2" value="2" onclick="pressbtn('2')"/> </td>
+			<td><input type="button" id="btn3" value="3" onclick="pressbtn('3')"/> </td>
+			<td><input type="button" id="btndiv" value="/" onclick="divs()"/> </td>
+		</tr>
+		<tr>
+			<td><input type="button" id="btn0" value="0" onclick="pressbtn('0')"/></td>
+			<td><input type="button" id="btnback" value="." onclick="pressdot()"/> </td>
+			<td colspan="2"><input type="button" id="btnsign" value="=" style="width:82px;" onclick="equal()"/> </td>			
+		</tr>
+	</table>
+
+</form>
+</body>
+</html>
